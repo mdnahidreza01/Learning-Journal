@@ -1,0 +1,96 @@
+============================================================================================================================
+***GIT and GITHUB***
+============================================================================================================================
+
+
+***git --version
+checks the version of git (version control System)
+
+***git status
+provides status of staging and commit etc.
+
+***git init
+initializes a working directory to be under version control system
+
+***git config --global user.name "Your Name"
+initializes the working directory to a owner or user name
+
+***git config --global user.email "your-email@example.com"
+sets up a email address in Git to get start with, a GitHub Gmail address makes it professional.
+
+***git config --global --list
+returns the config info
+
+***git add "File Name(with extension)"
+to add a file for staging. means to add a list for which files will be in next commit
+
+***git add .
+lists/stages all the changes done in the working directory
+
+***git commit -m "Add first C# program"
+creates a checkpoint for changes of any files or folders in the working directory
+
+***git remote add origin https://github.com/YOUR-USERNAME/git-first-project.git
+connects the remote repository with working directory.
+origin represents the main branch,
+link represents the location of the repository/directory
+
+***git remote -v
+verifys the connection of the remote directory
+
+***git branch -M main
+this command renames your current branch to main.
+
+***git push -u origin main
+This command sends your commits to GitHub and sets up the upstream tracking relationship,
+making future pushes simpler.
+
+***git diff
+it is used to inspect the actual code changes.
+
+***git push
+to push a commit to the GitHub repository(repo)
+
+***git pull
+pull is used for downloading the changes from the online/remote directory to the local directory.
+
+***git clone https://github.com/OWNER/REPOSITORY.git
+for cloning a repo in any local directory
+
+***cd REPOSITORY
+to access the cloned repo
+
+***git log --oneline
+to view recent commit.
+
+
+
+
+============================================================================================================================
+***Linux Terminal Commands***
+============================================================================================================================
+
+
+***script ~/terminal_log.txt
+to record all the commands that are executed during the session until any exit command is executed.
+the recorded log will be stored in path: /home/your_username/terminal_log.txt
+
+***script --timing=~/terminal_timing.txt ~/terminal_log.txt
+Detailed recording of the commands including timestamps
+
+One caution: terminal logs can contain passwords, access tokens, IP addresses, or other private information.
+Review the file before sharing it.
+
+***Command	What it does
+ls		Lists the contents of the current directory.
+ls Pictures	Lists the contents of the Pictures directory inside your current directory.
+ls ~		Lists the contents of your home directory, no matter where you currently are.
+ls /		Lists the top-level directories of the entire Linux filesystem.
+ls -l		Shows detailed information about each listed item.
+ls -a		Includes hidden files and directories, whose names begin with ..
+ls -la		Combines detailed information with hidden files.
+ls -lh		Shows detailed information with file sizes in human-readable units.
+ls -R		Lists directory contents recursively, including subdirectories.
+ls *.txt	Lists names matching the .txt filename pattern in the current directory.
+
+***
