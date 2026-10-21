@@ -93,4 +93,4 @@ ls -lh		Shows detailed information with file sizes in human-readable units.
 ls -R		Lists directory contents recursively, including subdirectories.
 ls *.txt	Lists names matching the .txt filename pattern in the current directory.
 
-***
+***cd     - to change directory.
