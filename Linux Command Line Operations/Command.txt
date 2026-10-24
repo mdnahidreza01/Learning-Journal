@@ -97,3 +97,5 @@ ls *.txt	Lists names matching the .txt filename pattern in the current directory
 
 ***pwd    - print working directory. This command prints the path of the working directory/present directory
 
+***mkdir  - creates a directory or a folder on the working directory.
+
