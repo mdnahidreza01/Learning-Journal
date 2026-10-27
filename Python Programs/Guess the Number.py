@@ -20,7 +20,8 @@ while True:
             print("The Number is Too high! Try again.")
 
         else:
-            print(f"Correct! You won in {attempts} attempts!")
+            print(
+                f"Correct! You won in {attempts} attempts! The Number was '{guess}'")
             break
 
     except ValueError:
