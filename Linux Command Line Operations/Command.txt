@@ -99,5 +99,7 @@ ls *.txt	Lists names matching the .txt filename pattern in the current directory
 
 ***mkdir  - creates a directory or a folder on the working directory.
 
-***
+***cp - to copy a file or context of a file from one to another.
+
+***sudo  -  to run or do any task as administrator.
 
