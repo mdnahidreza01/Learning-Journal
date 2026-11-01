@@ -10,7 +10,7 @@ integer = int(input("Enter a an integer number: "))
 floating = float(input("Enter a decimal (floating point) number: "))
 
 # 3. BOOLEAN:
-boolean = (input("Enter a a Boolean value: ")).lower
+boolean = (input("Enter a a Boolean value: "))
 
 # 4. COMPLEX:
 complex_number = complex(input("Enter a Complex number (e.g. 2 + 3j): "))
@@ -39,7 +39,7 @@ dictionary[dictionary_key] = dictionary_value
 
 # OUTPUT SECTION:
 
-print("========OUTPUT=========\n")
+print("\n========OUTPUT=========\n")
 
 datatypes = {
     "Integer": integer,
