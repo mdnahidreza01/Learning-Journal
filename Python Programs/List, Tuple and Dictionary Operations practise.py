@@ -57,3 +57,32 @@ capitals = {
     "China": "Beijing",
     "Russia": "Moscow"
 }
+
+if capitals.get("China"):
+    print("The capial exists")
+else:
+    print("The capital doesn't exist")
+
+capitals.update({"Japan": "Tokyo"})
+capitals.update({"USA": "Detroit"})
+capitals.pop("China")
+capitals.popitem()
+keys = capitals.keys()
+values = capitals.values()
+print(keys)
+print(values)
+
+
+for key in capitals.keys():
+    print(key)
+
+print("\n")
+
+for value in capitals.values():
+    print(value)
+
+items = capitals.items()
+
+for key, value in capitals.items():
+    print(f"{key} : {value}")
+print("\n")
