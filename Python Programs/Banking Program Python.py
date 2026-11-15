@@ -1,4 +1,6 @@
 # Banking Program Python:
+from datetime import datetime
+
 
 def show_balance():
     print("----------------------")
@@ -8,7 +10,6 @@ def show_balance():
 
 def withdraw():
     amount = float(input("Enter the amount to withdraw: "))
-
     if amount > balance:
         print("----------------------")
         print("Insufficient Funds!")
@@ -20,6 +21,8 @@ def withdraw():
         print("----------------------")
         return 0
     else:
+        print(
+            f"You withdrawed ${amount} on {datetime.now().date()} at {datetime.now().strftime("%I:%M:%S %p")}")
         return amount
 
 
@@ -32,6 +35,8 @@ def deposite():
         print("----------------------")
         return 0
     else:
+        print(
+            f"You Deposited ${amount} on {datetime.now().date()} at {datetime.now().strftime("%I:%M:%S %p")}")
         return amount
 
 
