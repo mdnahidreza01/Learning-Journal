@@ -1,5 +1,6 @@
+def celcius_to_fahrenheit():
 
-print("----- Celcius to Fahrenheit Scale -----\n")
+
 running = True
 while running:
     control = input("Enter 'x' to exit or 'Any Key' to continue: ").lower()
