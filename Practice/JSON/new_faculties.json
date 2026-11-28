@@ -1,0 +1,16 @@
+{
+  "faculties": [
+    {
+      "name": "Shanwar Hossain",
+      "subject": "OS"
+    },
+    {
+      "name": "Niloy Chowdhury",
+      "subject": "OOP"
+    },
+    {
+      "name": "Salman Kazi",
+      "subject": "MAT"
+    }
+  ]
+}

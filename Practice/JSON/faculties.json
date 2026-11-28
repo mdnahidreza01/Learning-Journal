@@ -1,0 +1,28 @@
+{
+    "faculties": [
+        {
+            "name": "Shanwar Hossain",
+            "subject": "OS",
+            "Subject_Code": [
+                "CSE2800",
+                "CSE4500"
+            ]
+        },
+        {
+            "name": "Niloy Chowdhury",
+            "subject": "OOP",
+            "Subject_Code": [
+                "CSE0023",
+                "CSE0042"
+            ]
+        },
+        {
+            "name": "Salman Kazi",
+            "subject": "MAT",
+            "Subject_Code": [
+                "MAT0050",
+                "MAT2832"
+            ]
+        }
+    ]
+}
